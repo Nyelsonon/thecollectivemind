@@ -79,4 +79,4 @@ async def invite(context):
 
 
 #bot token
-client.run("ODExMzIxMjkyNjg2MzYwNTg3.YCwf1Q.hYKrAFxFCtFefcsHiWu-ni-FsVY")
+client.run("-token-")
