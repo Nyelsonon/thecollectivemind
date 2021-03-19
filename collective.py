@@ -69,7 +69,7 @@ async def checklogs(context, lognum):
                             bembed = discord.Embed(title="Found Log:", description='"' + str(chosen_row) + '"  - Written by User: ' + str(chosen_author) + ", Log ID: " + str(logger))
                             await context.message.channel.send(embed=bembed)
     except:
-        print("e")
+        await context.message.channel.send("that parameter does not exist")
 
 
 
